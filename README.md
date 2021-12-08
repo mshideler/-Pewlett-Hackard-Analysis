@@ -10,11 +10,11 @@ The results of this analysis are displayed in the two pictures below.
 
 Number of Retirees by Title
 
-![Retirees_by_Title]()
+![Retirees_by_Title](https://github.com/mshideler/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/retiring_titles_pic.png)
 
 Partial List of Employees Eligible for the Mentorship Program
 
-![Mentorship_Eligibility]()
+![Mentorship_Eligibility](https://github.com/mshideler/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/mentorship_eligibility_pic.png)
 
 What These Results Tell Us
 
@@ -28,7 +28,7 @@ What These Results Tell Us
 
 ## Summary
 
-1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+Question 1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
 If the roles are expected to stay the same, all 90,398 roles need to be filled so as to minimize the “silver tsunami” effect.  Again, the number of retirees makes up 38% of Pewlett Hackard’s workforce.  Otherwise, numerous, additional responsibilities will be assigned to the remaining employees, which will have a negative impact on the company as a whole.  If the roles change, perhaps fewer roles would need to be filled depending on how those roles change.
 
@@ -43,7 +43,7 @@ WHERE de.to_date = '9999-01-01'
 GROUP BY de.to_date;
 ```
 
-2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+Question 2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
 Refactoring the code for this exercise led us to determine that the percentage of retirees per department is 37% - 38%, which is more than is necessary for the mentorship program.  The rest of the retirees could be tasked with helping to find other ways to pass on their knowledge.
 
