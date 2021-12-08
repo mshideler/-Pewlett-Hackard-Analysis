@@ -29,7 +29,7 @@ FROM unique_titles
 GROUP BY title
 ORDER BY COUNT (emp_no) DESC;
 
--- Deliverable 2: Determin the number of employees eligible for the Mentorship Program
+-- Deliverable 2: Determine the number of employees eligible for the Mentorship Program
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
 	e.first_name,
 	e.last_name,
